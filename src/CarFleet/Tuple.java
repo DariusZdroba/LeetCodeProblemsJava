@@ -1,3 +1,5 @@
+package CarFleet;
+
 public class Tuple {
     int position;
     int speed;
