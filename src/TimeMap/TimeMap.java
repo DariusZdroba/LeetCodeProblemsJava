@@ -1,5 +1,5 @@
-import javax.xml.crypto.dsig.keyinfo.KeyValue;
-import java.security.Key;
+package TimeMap;
+
 import java.util.*;
 
 public class TimeMap {

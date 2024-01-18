@@ -1,9 +1,14 @@
 import CarFleet.CarFleet;
+import MedianOfTwoSortedArrays.MedianOfTwoSortedArrays;
 import SearchInRotatedSortedArray.SearchInRotatedArray;
+import TimeMap.TimeMap;
 
 
 public class Main {
     public static void main(String[] args) {
+        int[] nums1 = {1,2};
+        int[] nums2 = {3,4};
+        System.out.println(MedianOfTwoSortedArrays.findMedianSortedArrays(nums1,nums2));
         TimeMap map = new TimeMap();
         map.set("love","high",10);
         map.set("love","low",20);

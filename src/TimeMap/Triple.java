@@ -1,3 +1,5 @@
+package TimeMap;
+
 public class Triple {
     public String key;
     public String value;
