@@ -7,7 +7,7 @@ import java.util.Stack;
 public class CarFleet {
     public static int carFleet(int target, int[] position, int[] speed) {
         if(position.length < 1) return 0;
-        int fleet = 1;
+
         Tuple[] tuples = new Tuple[position.length];
 
         for(int i=0; i<position.length;i++)
@@ -15,8 +15,7 @@ public class CarFleet {
             tuples[i] = new Tuple(position[i], speed[i]);
         }
         Arrays.sort(tuples, Comparator.comparingInt(tuple -> tuple.position));
-        Stack<Float> stack = new Stack<Float>();
-        float time;
+        Stack<Float> stack = new Stack<>();
         for(int i = position.length-1; i>=0; i--)
         {
             if(stack.size() >= 2 && stack.peek() >= (float)((target - tuples[i].position) / tuples[i].speed))
