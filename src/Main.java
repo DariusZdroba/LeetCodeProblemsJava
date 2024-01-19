@@ -6,6 +6,7 @@ import TimeMap.TimeMap;
 
 public class Main {
     public static void main(String[] args) {
+
         int[] nums1 = {1,2};
         int[] nums2 = {3,4};
         System.out.println(MedianOfTwoSortedArrays.findMedianSortedArrays(nums1,nums2));

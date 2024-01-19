@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46cdbf12-0c55-497b-89ed-881fdcb5f013" name="Changes" comment="TODO: Time limit">
-      <change afterPath="$PROJECT_DIR$/src/MedianOfTwoSortedArrays.java" afterDir="false" />
+    <list default="true" id="46cdbf12-0c55-497b-89ed-881fdcb5f013" name="Changes" comment="MedianOfTwoSortedArrays">
+      <change afterPath="$PROJECT_DIR$/src/MergeTwoSortedLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseLinkedList/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeMap/TimeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeMap/Triple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +79,32 @@
       <option name="project" value="LOCAL" />
       <updated>1705584666040</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MedianOfTwoSortedArrays">
+      <option name="closed" value="true" />
+      <created>1705593872941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705593872941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SearchinRotatedArray" />
     <MESSAGE value="TODO: Time limit" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO: Time limit" />
+    <MESSAGE value="MedianOfTwoSortedArrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="MedianOfTwoSortedArrays" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
