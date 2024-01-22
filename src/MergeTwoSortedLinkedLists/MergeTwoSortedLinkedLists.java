@@ -1,5 +1,6 @@
 package MergeTwoSortedLinkedLists;
 
+import HelperClasses.ListNode;
 import ReverseLinkedList.ReverseLinkedList;
 
 public class MergeTwoSortedLinkedLists {
@@ -30,11 +31,5 @@ public class MergeTwoSortedLinkedLists {
         return dummy.next;
     }
 
-    protected class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
+
 }
